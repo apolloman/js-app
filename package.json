@@ -1,0 +1,25 @@
+{
+  "name": "doingjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apolloman/js-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apolloman/js-app/issues"
+  },
+  "homepage": "https://github.com/apolloman/js-app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "http-server": "^0.11.1"
+  }
+}
