@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>JS By Doing</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="content-area row">
+			<div class="col-md-2 col-xs-2 col-lg-2 col-sm-2"></div>
+			<div class="col-md-8 col-xs-8 col-lg-8 col-sm-8">
+				<h2>ToDo List</h2>
+				<div class="row input-area">
+					<div class="col-md-1"></div>
+					<div class="form-group col-md-9">
+						<input type="text" placeholder="New Task" class="form-control" id="addTask">
+					</div>
+					<div class="form-group col-md-1">
+						<button class="btn btn-primary" onclick="toDo.addTaskClick()">Add</button>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<ul class="list-group" id="taskList">
+					<li class="list-group-item checkbox">
+						<div class="row">
+							<div class="col-md-1 col-xs-1 col-lg-1 col-sm-1 checkbox">
+								<label>
+									<input type="checkbox" value="" class="" checked>
+								</label>
+							</div>
+							<div class="col-md-10 col-xs-10 col-lg-10 col-sm-10 task-text complete">
+								First item
+							</div>
+							<div class="col-md-1 col-xs-1 col-lg-1 col-sm-1 delete-icon-area">
+								<a class="" href="/">
+									<i class="delete-icon glyphicon glyphicon-trash">X</i>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-xs-2 col-lg-2 col-sm-2"></div>
+		</div>
+	</div>
+	<!-- /.container -->
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	    crossorigin="anonymous"></script>
+	<script src="dist/main.js"></script>
+	
+</body>
+
+</html>
