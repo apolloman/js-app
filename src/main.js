@@ -1,25 +1,26 @@
 class ToDoClass {
 	constructor() {
+		debugger;
     /* Locale Storage */
     this.tasks = JSON.parse(localStorage.getItem("TASKS"));
 
 /* List of tasks */
    if(!this.tasks) {
       this.tasks = [
-          {task: 'Go to dentist', isComplete: false},
-          {task: 'Do Gardening', isComplete: true},
-          {task: 'Renew Library Account', isComplete: false},
+          {task: 'Learn ReactJS', isComplete: false},
+          {task: 'Clean My Home', isComplete: true},
+          {task: 'Buy something to eat', isComplete: false},
 	   ];
 	}
 
-    this.addEventListener();
+    this.addKeytListener();
 	this.loadTasks();
 
 	} /* end constructor */
 
 
 /* add Item with Enter Button */
-	addEventListener() { 
+	addKeyListener() { 
     	document.getElementById('addTask').addEventListener('keypress', event => {
             if(event.keyCode === 13) {
             	this.addTask(event.target.value);
